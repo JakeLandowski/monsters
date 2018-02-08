@@ -26,7 +26,7 @@ class Vampire extends Monster
     public function __construct($name)
     {
         parent::__construct($name);
-        $_victims = 0;
+        $this->_victims = 0;
     }
 
     /**
@@ -34,7 +34,7 @@ class Vampire extends Monster
      */
     public function attack()
     {
-        $_victims++;
+        $this->_victims++;
         echo "Vampire took his shirt off and burned a victim to death!";
     }
 
@@ -45,6 +45,6 @@ class Vampire extends Monster
      */
     public function getVictims()
     {
-        return $_victims;
+        return $this->_victims;
     }
 }

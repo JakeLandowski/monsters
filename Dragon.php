@@ -26,7 +26,7 @@ class Dragon extends Monster
     public function __construct($name)
     {
         parent::__construct($name);
-        $_victims = 0;
+        $this->_victims = 0;
     }
 
     /**
@@ -34,7 +34,7 @@ class Dragon extends Monster
      */
     public function attack()
     {
-        $_victims++;
+        $this->_victims++;
         echo "Dragon roasted someone.";
     }
 
@@ -45,6 +45,6 @@ class Dragon extends Monster
      */
     public function getVictims()
     {
-        return $_victims;
+        return $this->_victims;
     }
 }
