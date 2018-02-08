@@ -32,7 +32,7 @@ class Vampire extends Monster
     public function attack()
     {
         $_victims++;
-        echo "Vampire attacked someone!";
+        echo "Vampire took his shirt off and burned a victim to death!";
     }
 
     /**
