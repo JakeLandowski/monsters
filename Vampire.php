@@ -12,7 +12,7 @@
  *  @author Jake Landowski
  */
 
-require_once "Monsters.php";
+require_once "Monster.php";
 
 class Vampire extends Monster
 {
