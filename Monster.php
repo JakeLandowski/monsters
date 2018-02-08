@@ -12,7 +12,7 @@ class Monster {
 
     //Default constructor
     public function __construct($name="Dracula") {
-        $this->$name = $name;
+        $this->name = $name;
     }
 
     /**
