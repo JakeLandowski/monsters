@@ -11,6 +11,9 @@
  * 
  *  @author Jake Landowski
  */
+
+require_once "Monsters.php";
+
 class Dragon extends Monster
 {
     private $_victims;
