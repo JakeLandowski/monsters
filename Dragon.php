@@ -1,24 +1,24 @@
 <?php
 /**
- *  Vampire.php
+ *  Dragon.php
  *  Author: Jake Landowski
  *  Date: 2-8-18
  */
 
 /**
- *  Vampire.php
+ *  Dragon.php
  *  Date: 2-8-18
  * 
  *  @author Jake Landowski
  */
-class Vampire extends Monster
+class Dragon extends Monster
 {
     private $_victims;
 
     /**
-     *  Constructs a vampire
+     *  Constructs a dragon
      * 
-     *  @param String   name  Name of the vampire
+     *  @param String   name  Name of the dragon
      */
     public function __construct($name)
     {
@@ -32,7 +32,7 @@ class Vampire extends Monster
     public function attack()
     {
         $_victims++;
-        echo "Vampire attacked someone!";
+        echo "Dragon roasted someone.";
     }
 
     /**
