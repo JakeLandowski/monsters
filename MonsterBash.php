@@ -1,13 +1,17 @@
 <?php
 
-monster = new Monster();
+include ('Vampire.php');
+include ('Dragon.php);
 
-monster.setName("Steve");
-monster.getName();
-monster.attack();
 
-monster2 = new Vampire("Sparkles");
-monster2.attack();
+$monster = new Monster();
 
-monster3 = new Dragon("Charmander");
-monster3.attack();
+$monster.setName("Steve");
+$monster.getName();
+$monster.attack();
+
+$monster2 = new Vampire("Sparkles");
+$monster2.attack();
+
+$monster3 = new Dragon("Charmander");
+$monster3.attack();
