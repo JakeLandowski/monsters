@@ -25,4 +25,9 @@ class Vampire extends Monster
         $_victims++;
         echo "Vampire attacked someone!";
     }
+
+    public function getVictims()
+    {
+        return $_victims;
+    }
 }
