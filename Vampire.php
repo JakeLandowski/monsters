@@ -15,9 +15,16 @@ class Vampire extends Monster
 {
     private $_victims;
 
-    public function __construct($name, $victims)
+    /**
+     *  Constructs a vampire
+     * 
+     *  @param String   name  Name of the vampire
+     *  @param int      the number of victims to start
+     */
+    public function __construct($name)
     {
-        $this->_victims = $victims;
+        parent::__construct($name);
+        $_victims = 0;
     }
 
     public function attack()
