@@ -19,4 +19,10 @@ class Vampire extends Monster
     {
         $this->_victims = $victims;
     }
+
+    public function attack()
+    {
+        $_victims++;
+        echo "Vampire attacked someone!";
+    }
 }
