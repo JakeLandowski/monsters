@@ -6,7 +6,7 @@
  * @author Ryan Marlow
  */
 
-class Pet {
+class Monsters {
 
     protected $name;
 
